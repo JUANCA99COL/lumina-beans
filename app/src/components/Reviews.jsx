@@ -4,28 +4,28 @@ import { motion, AnimatePresence } from 'framer-motion';
 const REVIEWS = [
   {
     name: 'Jane Whitfield',
-    photo: '/images/JaneWhitfield.jpg',
+    photo: `${import.meta.env.BASE_URL}images/JaneWhitfield.jpg`,
     date: 'Nov 12, 2025',
     rating: 5,
     quote: 'The Bourbon roast is rich and syrupy — my mornings completely changed since I started subscribing.',
   },
   {
     name: 'Marcus Reyes',
-    photo: '/images/Marcus.jpg',
+    photo: `${import.meta.env.BASE_URL}images/Marcus.jpg`,
     date: 'Oct 3, 2025',
     rating: 5,
     quote: 'Every bag tastes like it was roasted yesterday. The Caturra has a bright citrus note I have not found anywhere else.',
   },
   {
     name: 'Priya Anand',
-    photo: '/images/priya.jpg',
+    photo: `${import.meta.env.BASE_URL}images/priya.jpg`,
     date: 'Sep 21, 2025',
     rating: 4,
     quote: 'Shipping is fast and the packaging keeps everything fresh. The Typica is now a permanent fixture on my counter.',
   },
   {
     name: 'Owen Blake',
-    photo: '/images/OwenBlake.jpg',
+    photo: `${import.meta.env.BASE_URL}images/OwenBlake.jpg`,
     date: 'Aug 30, 2025',
     rating: 5,
     quote: 'Lumina Beans turned my weekday pour-over into the best part of my routine. Worth every penny.',

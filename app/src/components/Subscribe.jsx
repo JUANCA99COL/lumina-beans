@@ -17,7 +17,7 @@ export default function Subscribe() {
     <section className="subscribe" id="subscribe">
       <video
         className="subscribe-photo-slot"
-        src="/video/coffe-video-parallex.mp4"
+        src={`${import.meta.env.BASE_URL}video/coffe-video-parallex.mp4`}
         autoPlay
         loop
         muted
