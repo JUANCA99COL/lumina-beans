@@ -4,7 +4,7 @@ import { useMediaQuery } from '../hooks/useMediaQuery';
 import FrameLoader from './FrameLoader';
 
 const FRAME_COUNT = 240;
-const FRAME_PATH = (i) => `/assets/hero-frames/frame-${String(i).padStart(4, '0')}.jpg`;
+const FRAME_PATH = (i) => `${import.meta.env.BASE_URL}assets/hero-frames/frame-${String(i).padStart(4, '0')}.jpg`;
 // How much extra scroll distance to give the sequence, in viewport heights.
 const SCROLL_LENGTH_VH = 3.5;
 // Text fades out over the first 35% of the scroll, then the imagery holds the frame.
